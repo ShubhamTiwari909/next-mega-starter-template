@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import { useSessionStorage } from "@uidotdev/usehooks";
+import { useSessionStorage } from "@mantine/hooks";
 
 const UseSessionStorage = () => {
-  const [login, setLogin] = useSessionStorage("isLoggedIn", false);
+  const [login, setLogin] = useSessionStorage({ key: "isLoggedIn", defaultValue: false });
   return (
-    <div>
+    <div className="px-4 w-96">
       <h2 className="text-xl md:text-3xl font-sans font-bold mb-10">useSessionStorage hook</h2>
       <div className="flex flex-wrap gap-4 items-center">
         <button
