@@ -22,7 +22,7 @@ const Shadcn = () => {
         </a>
       </p>
 
-      {/* Hooks examples */}
+      {/* NEXT UI examples */}
       <section className="flex flex-wrap gap-20 mb-10">
         <AccordionComponent />
         <CardComponent />

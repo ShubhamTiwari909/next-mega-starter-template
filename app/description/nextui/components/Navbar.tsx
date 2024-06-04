@@ -29,6 +29,10 @@ export default function NavbarComponent() {
       text: "Next UI",
       link: "/description/nextui",
     },
+    {
+      text: "Zustand",
+      link: "/description/zustand",
+    },
   ];
 
   return (
@@ -66,6 +70,14 @@ export default function NavbarComponent() {
             href="/description/nextui"
           >
             Next UI
+          </Link>
+        </NavbarItem>
+        <NavbarItem isActive={pathname === "/description/nextui"}>
+          <Link
+            color={pathname === "/description/nextui" ? "primary" : "foreground"}
+            href="/description/zustand"
+          >
+            Zustand
           </Link>
         </NavbarItem>
       </NavbarContent>
