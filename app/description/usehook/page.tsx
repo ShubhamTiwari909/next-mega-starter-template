@@ -5,6 +5,7 @@ import UseSessionStorage from "./components/UseSessionStorage";
 import UseInterval from "./components/UseInterval";
 import UseDebouncedState from "./components/UseDebounceState";
 import UseDisclosure from "./components/UseDisclosure";
+import Link from "next/link";
 
 const Usehook = () => {
   return (
