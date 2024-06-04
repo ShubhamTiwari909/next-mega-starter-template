@@ -11,7 +11,7 @@ const Zustand = () => {
       <h1 className="text-2xl md:text-5xl font-sans font-bold text-center mb-10">Zustand</h1>
       <p className="text-lg md:text-2xl font-sans font-medium text-center mb-16 text-slate-500">
         A small, fast and scalable bearbones state-management solution using simplified flux principles.
-        <br /> Has a comfy API based on hooks, isn't boilerplatey or opinionated.
+        <br /> Has a comfy API based on hooks, isn&rsquo;t boilerplatey or opinionated.
         <a
           href="https://github.com/pmndrs/zustand"
           target="_blank"
