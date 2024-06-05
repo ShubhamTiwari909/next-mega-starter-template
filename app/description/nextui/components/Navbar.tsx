@@ -1,14 +1,6 @@
 "use client";
 import React from "react";
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-  NavbarMenuToggle,
-  NavbarMenu,
-  NavbarMenuItem,
-} from "@nextui-org/navbar";
+import { Navbar, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
 import { usePathname } from "next/navigation";
 
@@ -32,6 +24,10 @@ export default function NavbarComponent() {
     {
       text: "Zustand",
       link: "/description/zustand",
+    },
+    {
+      text: "React Hook Form",
+      link: "/description/react-hook-form",
     },
   ];
 
@@ -72,12 +68,20 @@ export default function NavbarComponent() {
             Next UI
           </Link>
         </NavbarItem>
-        <NavbarItem isActive={pathname === "/description/nextui"}>
+        <NavbarItem isActive={pathname === "/description/zustand"}>
           <Link
-            color={pathname === "/description/nextui" ? "primary" : "foreground"}
+            color={pathname === "/description/zustand" ? "primary" : "foreground"}
             href="/description/zustand"
           >
             Zustand
+          </Link>
+        </NavbarItem>
+        <NavbarItem isActive={pathname === "/description/react-hook-form"}>
+          <Link
+            color={pathname === "/description/react-hook-form" ? "primary" : "foreground"}
+            href="/description/react-hook-form"
+          >
+            React Hook Form
           </Link>
         </NavbarItem>
       </NavbarContent>
