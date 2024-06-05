@@ -29,6 +29,10 @@ export default function NavbarComponent() {
       text: "React Hook Form",
       link: "/description/react-hook-form",
     },
+    {
+      text: "SWR Data fetching",
+      link: "/description/swr",
+    },
   ];
 
   return (
@@ -82,6 +86,14 @@ export default function NavbarComponent() {
             href="/description/react-hook-form"
           >
             React Hook Form
+          </Link>
+        </NavbarItem>
+        <NavbarItem isActive={pathname === "/description/swr"}>
+          <Link
+            color={pathname === "/description/swr" ? "primary" : "foreground"}
+            href="/description/swr"
+          >
+            SWR
           </Link>
         </NavbarItem>
       </NavbarContent>
