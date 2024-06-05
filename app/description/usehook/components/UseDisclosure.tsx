@@ -17,7 +17,7 @@ const UseDisclosure = () => {
       <div
         className={`${opened ? "block" : "hidden"} absolute top-0 left-0 grid place-items-center bg-slate-100 w-96 h-52 p-4 rounded-lg`}
       >
-        <h3 className="text-lg md:text-xl font-sans font-bold mb-4">Modal</h3>
+        <h3 className="text-lg md:text-xl font-sans font-bold mb-4 text-slate-900">Modal</h3>
         <button
           className="px-4 py-2 mb-4 inline-block rounded-lg bg-red-500 text-white"
           onClick={close}

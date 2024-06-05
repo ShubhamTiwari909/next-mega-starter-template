@@ -35,6 +35,8 @@ export default function NavbarComponent() {
     },
   ];
 
+  if (pathname === "/") return null;
+
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>

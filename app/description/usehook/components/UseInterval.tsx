@@ -14,7 +14,7 @@ const UseInterval = () => {
   return (
     <div className="px-4 w-96">
       <h2 className="text-xl md:text-3xl font-sans font-bold mb-10">useInterval hook</h2>
-      <p className="text-lg font-sans mb-4 text-slate-900">
+      <p className="text-lg font-sans mb-4">
         Timer <b>{seconds}</b> seconds
       </p>
       <button

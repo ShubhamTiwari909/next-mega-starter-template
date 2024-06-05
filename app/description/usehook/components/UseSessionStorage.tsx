@@ -14,9 +14,9 @@ const UseSessionStorage = () => {
         >
           {login ? "Logout" : "Login"}
         </button>
-        <p className="text-lg font-sans mb-4 text-slate-900">{login ? "Logged in" : "Logged out"}</p>
+        <p className="text-lg font-sans mb-4">{login ? "Logged in" : "Logged out"}</p>
       </div>
-      <p className="text-lg font-sans mb-4 text-slate-900">Refresh the page, the value will be persisted</p>
+      <p className="text-lg font-sans mb-4">Refresh the page, the value will be persisted</p>
     </div>
   );
 };

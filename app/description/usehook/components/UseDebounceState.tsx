@@ -19,8 +19,8 @@ function UseDebouncedState() {
         />
       </div>
 
-      <p className="text-lg font-sans mb-4 text-slate-900">Value: {value}</p>
-      <p className="text-lg font-sans mb-4 text-slate-900">Debounced value: {debounced}</p>
+      <p className="text-lg font-sans mb-4">Value: {value}</p>
+      <p className="text-lg font-sans mb-4">Debounced value: {debounced}</p>
     </div>
   );
 }

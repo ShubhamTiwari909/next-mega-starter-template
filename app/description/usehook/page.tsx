@@ -9,9 +9,9 @@ import Link from "next/link";
 
 const Usehook = () => {
   return (
-    <div className="bg-slate-200 min-h-screen p-8">
+    <div className="bg-gray-900 text-white min-h-screen p-8">
       <h1 className="text-2xl md:text-5xl font-sans font-bold text-center mb-10">Mantine</h1>
-      <p className="text-lg md:text-2xl font-sans font-medium text-center mb-16 text-slate-500">
+      <p className="text-lg md:text-2xl font-sans font-medium text-center mb-16 text-slate-300">
         Build fully functional accessible web applications faster than ever - Mantine includes more than 100 <br />
         customizable components and 50 hooks to cover you in any situation.{" "}
         <a

@@ -44,9 +44,12 @@ const Form = () => {
   return (
     <div className="grid justify-center">
       <form
-        className="grid gap-y-4"
+        className="grid gap-y-4 p-10 rounded-xl border border-white"
         onSubmit={handleSubmit(onSubmit)}
       >
+        <div>
+          <h2 className="text-xl md:text-3xl font-sans font-bold text-center">USER</h2>
+        </div>
         <div className="min-h-10 min-w-72">
           <input
             className="w-full px-4 py-2 border border-slate-700 rounded-lg"
@@ -65,7 +68,7 @@ const Form = () => {
           {errors.age?.message && <p className="text-red-500">{errors?.age?.message as string}</p>}
         </div>
         <input
-          className="px-4 py-2 bg-blue-500 text-white w-fit rounded-lg"
+          className="px-4 py-2 bg-blue-500 text-white w-fit rounded-lg cursor-pointer"
           type="submit"
         />
       </form>

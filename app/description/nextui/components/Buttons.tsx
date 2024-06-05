@@ -5,11 +5,8 @@ import { Button } from "@nextui-org/button";
 
 export default function ButtonComponent() {
   return (
-    <div className="">
-      <h2 className="text-xl md:text-3xl font-sans font-bold mb-10">Buttons</h2>
-      <p className="text-base font-sans mb-8 text-slate-900">
-        Check the documentation for more versions of the buttons
-      </p>
+    <div className="text-white">
+      <h2 className="text-xl md:text-3xl font-sans font-bold mb-4">Buttons</h2>
       <div className="grid lg:grid-cols-2">
         <div>
           <h3 className="text-lg md:text-xl font-sans font-medium mb-4">Sizes</h3>

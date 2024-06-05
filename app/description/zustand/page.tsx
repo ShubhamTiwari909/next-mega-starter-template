@@ -7,9 +7,9 @@ const Zustand = () => {
   const setLoggedIn = useStore((state) => state.setLoggedIn);
 
   return (
-    <div className="bg-slate-200 min-h-[calc(100vh-64px)] p-8">
+    <div className="bg-gray-900 text-white min-h-[calc(100vh-64px)] p-8">
       <h1 className="text-2xl md:text-5xl font-sans font-bold text-center mb-10">Zustand</h1>
-      <p className="text-lg md:text-2xl font-sans font-medium text-center mb-16 text-slate-500">
+      <p className="text-lg md:text-2xl font-sans font-medium text-center mb-16 text-slate-300">
         A small, fast and scalable bearbones state-management solution using simplified flux principles.
         <br /> Has a comfy API based on hooks, isn&rsquo;t boilerplatey or opinionated.
         <a
@@ -33,7 +33,7 @@ const Zustand = () => {
             {loggedIn ? "Logout" : "Login"}
           </button>
         </div>
-        <p className="text-lg font-sans mb-4 text-slate-900">Login and refresh the page, the state will persist</p>
+        <p className="text-lg font-sans mb-4">Login and refresh the page, the state will persist</p>
       </section>
     </div>
   );
