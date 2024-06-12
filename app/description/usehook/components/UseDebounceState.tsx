@@ -13,7 +13,7 @@ function UseDebouncedState() {
       <div className="flex flex-col gap-4 items-start mb-6">
         <label className="text-lg">Enter value to see debounce effect</label>
         <input
-          className="pl-2 py-2 rounded-lg border border-slate-700"
+          className="pl-2 py-2 rounded-lg border border-slate-700 text-slate-900"
           value={value}
           onChange={(event) => setValue(event.currentTarget.value)}
         />

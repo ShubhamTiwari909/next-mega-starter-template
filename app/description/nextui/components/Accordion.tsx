@@ -7,10 +7,13 @@ export default function AccordionComponent() {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 
   return (
-    <div className="w-96 text-white">
-      <h2 className="text-xl md:text-3xl font-sans font-bold mb-4">Accordion</h2>
+    <div className="w-96">
+      <h2 className="text-xl md:text-3xl font-sans font-bold mb-4 text-white">Accordion</h2>
 
-      <Accordion variant="splitted">
+      <Accordion
+        variant="splitted"
+        className="text-slate-900"
+      >
         <AccordionItem
           key="1"
           aria-label="Accordion 1"

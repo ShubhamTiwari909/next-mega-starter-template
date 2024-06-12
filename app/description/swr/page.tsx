@@ -34,7 +34,7 @@ const SWR = () => {
           {data?.products?.map((product: any) => {
             return (
               <li key={product.id}>
-                <Card className="py-4 w-fit bg-slate-200 text-slate-900 h-[500px]">
+                <Card className="pt-4 w-fit bg-slate-200 text-slate-900 h-[500px]">
                   <CardHeader className="pt-2 px-4 flex-col items-start pb-4">
                     <p className="text-tiny uppercase font-bold mb-2">{product.category}</p>
                     <h4 className="font-bold text-large w-60">{product.title}</h4>
@@ -48,10 +48,10 @@ const SWR = () => {
                       height={250}
                     />
                   </CardBody>
-                  <CardFooter className="flex flex-col gap-4 items-center">
+                  <CardFooter className="flex flex-col gap-4 rounded-none items-center bg-violet-900 text-slate-100">
                     <div className="flex justify-between w-full mb-2">
-                      <p className="text-sky-500 font-bold">Price: {product.price}</p>
-                      <p className="text-purple-500 font-bold">Rating: {product.rating}</p>
+                      <p className="text-sky-200 font-bold">Price: {product.price}</p>
+                      <p className="text-purple-200 font-bold">Rating: {product.rating}</p>
                     </div>
                     <small
                       className={`px-4 py-2 rounded-full ${product.availabilityStatus === "In Stock" ? "bg-green-500 text-white" : "bg-red-500 text-white"}`}
